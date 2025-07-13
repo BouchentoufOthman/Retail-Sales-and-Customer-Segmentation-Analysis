@@ -56,7 +56,12 @@ Refund transactions were excluded from this calculation.
 
 ### 🗺️ Some Vizualisation:
 
-![Elbow Method](Images/Elbow_method.JPG)
+- Most sold products
+![Most sold products](Images/Most_sold_products.JPG)
+- Top Customers
+![Top Customers](Images/top_customers.JPG)
+- Sales over time
+![Sales over time](Images/Sales_over_time.JPG)
 
 ### 📏 Scaling & Clustering:
 
