@@ -44,16 +44,6 @@ The dataset is based on an online retail transaction dataset, containing sales r
 - Used **Robust Z-score** for `Quantity` (due to more normal distribution).
 - Removed extreme invalid entries but preserved valid high-value orders.
 
-### 🧩 RFM Feature Engineering:
-
-We created an **RFM table** per customer:
-
-- `Recency`: Days since the customer's last purchase
-- `Frequency`: Total number of purchases
-- `Monetary`: Total money spent
-
-Refund transactions were excluded from this calculation.
-
 ### 🗺️ Some Vizualisation:
 
 #### 📌 Most Sold Products
@@ -65,11 +55,27 @@ Refund transactions were excluded from this calculation.
 #### 📈 Sales Over Time
 ![Sales Over Time](Images/Sales_over_time.JPG)
 
+### 🧩 RFM Feature Engineering:
+
+We created an **RFM table** per customer:
+
+- `Recency`: Days since the customer's last purchase
+- `Frequency`: Total number of purchases
+- `Monetary`: Total money spent
+
+Refund transactions were excluded from this calculation.
+
 ### 📏 Scaling & Clustering:
 
 - Applied `log1p` transformation to reduce skew in RFM values.
 - Scaled using `StandardScaler`.
 - Chose **K=4** using the Elbow Method with KMeans clustering.
+
+####🔍 RFM Cluster Segmentation
+![RFM Cluster](Images/RFM_cluster.JPG)
+
+####📐 Elbow Method
+![Elbow Method](Images/Elbow_method.JPG)
 
 ### 🧠 Customer Segmentation:
 
@@ -85,6 +91,9 @@ Segment labels were assigned and merged back into the retail dataset (non-refund
 ---
 
 ## 📊 Part 2: Power BI Dashboard
+
+####📋 BI Dashboard
+![Sales Over Time](Images/Bi_Dashboard.JPG)
 
 The final dashboard includes the following visuals:
 
