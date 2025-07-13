@@ -56,7 +56,7 @@ Refund transactions were excluded from this calculation.
 
 ### 🗺️ Some Vizualisation:
 
-![Elbow Method](Images/Elbow method.png)
+![Elbow Method](Images/Elbow_method.png)
 
 ### 📏 Scaling & Clustering:
 
