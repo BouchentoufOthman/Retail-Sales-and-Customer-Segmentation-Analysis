@@ -105,24 +105,17 @@ The final dashboard includes the following visuals:
 
 ### 🌍 Sales by Region:
 - Bar chart of total sales by country (aggregating non-UK as "Other")
-- Map visual showing country-wise performance with bubble sizes
 - A slicer to switch between segments or countries
 
 ### 📈 Sales Trend Over Time:
 - Monthly line chart showing `TotalPrice` by region
 - Filterable by customer segment or region
 
-### 👑 Top Customers:
+### 👑 Top Customers and sales by customer segment:
 - Table showing top 6 customers by total spending
+- Bar chart showing amount spent by customer segment
 
-### 🔄 Refund Distribution:
-- Bar chart showing count of refund vs non-refund orders
-- Re-labeled bars as "Refund" and "Non-Refund"
+### 🔄 Top Products:
+- Bar chart showing most sold products
 
 ---
-
-## 🚀 How to Use
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/retail-sales-analysis.git
