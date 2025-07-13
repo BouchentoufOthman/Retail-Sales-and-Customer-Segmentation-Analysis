@@ -92,7 +92,8 @@ Segment labels were assigned and merged back into the retail dataset (non-refund
 ---
 
 ## 📊 Part 2: Power BI Dashboard
-
+You can explore the interactive Power BI dashboard for this project here:  
+[Retail Sales & Customer Segmentation Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZmRlMDNlMDctODhhZi00NmRkLWFlYmEtYzY4MDg2YTkxZTkyIiwidCI6IjcwMjVlMDRjLTcwY2EtNDhiZi1hYjdiLTczOTU0Y2I4NDZhZCIsImMiOjl9)
 📋 BI Dashboard
 ![Sales Over Time](Images/Bi_Dashboard.JPG)
 
