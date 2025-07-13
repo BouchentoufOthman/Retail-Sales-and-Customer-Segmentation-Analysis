@@ -47,12 +47,16 @@ The dataset is based on an online retail transaction dataset, containing sales r
 ### 🗺️ Some Vizualisation:
 
 #### 📌 Most Sold Products
+- WHITE HANGING HEART T-LIGHT HOLDER takes the top spot—suggesting it's a consistently popular item across many invoices. Likely a low-cost, high-frequency decorative product.
 ![Most Sold Products](Images/Most_sold_products.JPG)
 
 #### 👑 Top Customers
+- Customer 14911 and 12748 leads with ~200 unique invoices each implying frequent engagement and high transactional volume.
 ![Top Customers](Images/top_customers.JPG)
 
 #### 📈 Sales Over Time
+- We can see that Sales fluctuate month by month, with noticeable ups and downs—suggesting seasonality or promotional cycles.
+- The highest spike occurs here, which likely corresponds to holiday shopping, Black Friday, or year-end promotions.
 ![Sales Over Time](Images/Sales_over_time.JPG)
 
 ### 🧩 RFM Feature Engineering:
@@ -80,12 +84,17 @@ Refund transactions were excluded from this calculation.
 
 ### 🧠 Customer Segmentation:
 
+- "At-Risk Customers": High Recency, Low Frequency/Monetary 
+- "Champions": Low Recency, High Frequency/Monetary
+- "Loyal Customers": Moderate Recency, Good Frequency/Monetary
+- "New Customers": High Recency, Low Frequency/Monetary
+
 | Cluster | Recency | Frequency | Monetary | Interpretation         |
 |---------|---------|-----------|----------|-------------------------|
-| 0       | 17.4    | 2.2       | 563.5    | 🟠 New Customers         |
+| 3       | 17.4    | 2.2       | 563.5    | 🟠 New Customers         |
 | 1       | 12.2    | 13.7      | 7662.5   | 🟢 Champions             |
 | 2       | 73.1    | 4.0       | 1622.8   | 🔵 Loyal Customers       |
-| 3       | 182.8   | 1.3       | 328.5    | 🔴 At-Risk Customers     |
+| 0       | 182.8   | 1.3       | 328.5    | 🔴 At-Risk Customers     |
 
 Segment labels were assigned and merged back into the retail dataset (non-refund only).
 
