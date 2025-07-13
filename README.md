@@ -47,16 +47,22 @@ The dataset is based on an online retail transaction dataset, containing sales r
 ### 🗺️ Some Vizualisation:
 
 #### 📌 Most Sold Products
+
 - WHITE HANGING HEART T-LIGHT HOLDER takes the top spot—suggesting it's a consistently popular item across many invoices. Likely a low-cost, high-frequency decorative product.
+
 ![Most Sold Products](Images/Most_sold_products.JPG)
 
 #### 👑 Top Customers
+
 - Customer 14911 and 12748 leads with ~200 unique invoices each implying frequent engagement and high transactional volume.
+
 ![Top Customers](Images/top_customers.JPG)
 
 #### 📈 Sales Over Time
+
 - We can see that Sales fluctuate month by month, with noticeable ups and downs—suggesting seasonality or promotional cycles.
 - The highest spike occurs here, which likely corresponds to holiday shopping, Black Friday, or year-end promotions.
+
 ![Sales Over Time](Images/Sales_over_time.JPG)
 
 ### 🧩 RFM Feature Engineering:
