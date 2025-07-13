@@ -82,10 +82,10 @@ Refund transactions were excluded from this calculation.
 
 | Cluster | Recency | Frequency | Monetary | Interpretation         |
 |---------|---------|-----------|----------|-------------------------|
-| 0       | 18.5    | 2.1       | 537.2    | 🟠 At-Risk Customers     |
-| 1       | 12.1    | 13.6      | 7919.3   | 🟢 Champions             |
-| 2       | 71.4    | 4.0       | 1729.1   | 🔵 Loyal Customers       |
-| 3       | 184.7   | 1.3       | 336.7    | 🔴 New Customers         |
+| 0       | 17.4    | 2.2       | 563.5    | 🟠 New Customers         |
+| 1       | 12.2    | 13.7      | 7662.5   | 🟢 Champions             |
+| 2       | 73.1    | 4.0       | 1622.8   | 🔵 Loyal Customers       |
+| 3       | 182.8   | 1.3       | 328.5    | 🔴 At-Risk Customers     |
 
 Segment labels were assigned and merged back into the retail dataset (non-refund only).
 
