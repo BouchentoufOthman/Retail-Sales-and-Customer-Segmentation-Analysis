@@ -3,7 +3,7 @@
 This project analyzes retail sales data using Python for data preprocessing and customer segmentation, and visualizes key insights in a Power BI dashboard. It combines data science with business intelligence to support stakeholder decision-making.
 
 ---
-
+![Dashboard](Images/Bi_Dashboard.JPG)
 ## 📁 Project Overview
 
 This project consists of two main parts:
