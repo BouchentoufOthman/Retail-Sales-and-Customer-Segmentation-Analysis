@@ -54,6 +54,10 @@ We created an **RFM table** per customer:
 
 Refund transactions were excluded from this calculation.
 
+### 🗺️ Some Vizualisation:
+
+![Elbow Method](Images/Elbow method.png)
+
 ### 📏 Scaling & Clustering:
 
 - Applied `log1p` transformation to reduce skew in RFM values.
