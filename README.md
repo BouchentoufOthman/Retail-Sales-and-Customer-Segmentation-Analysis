@@ -93,7 +93,7 @@ Segment labels were assigned and merged back into the retail dataset (non-refund
 
 ## 📊 Part 2: Power BI Dashboard
 
-####📋 BI Dashboard
+📋 BI Dashboard
 ![Sales Over Time](Images/Bi_Dashboard.JPG)
 
 The final dashboard includes the following visuals:
