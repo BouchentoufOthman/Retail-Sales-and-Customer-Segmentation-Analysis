@@ -138,6 +138,12 @@ The datasets used in this project include:
 - **final_retail_dataset.csv**: The cleaned and preprocessed dataset derived from the original Excel file, used for analysis and modeling.
 - **retail_all.csv**: The initial raw dataset before cleaning and feature engineering.
 
+## Tools and Technologies Used
+
+This project leveraged the following tools:
+
+- **Python** — Used for data quality assessment, cleaning, feature engineering, and customer segmentation. Key libraries include `pandas`, `numpy`, `matplotlib`, `seaborn`, and `scikit-learn`.
+- **Power BI** — Used as the Business Intelligence tool to create interactive dashboards and visualizations that present sales trends and customer segmentation insights.
 
 ---
 
