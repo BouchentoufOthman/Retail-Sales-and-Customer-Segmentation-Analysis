@@ -129,10 +129,15 @@ The final dashboard includes the following visuals:
 - Bar chart showing most sold products
 
 ---
-### 🌐 Interactive Power BI Dashboard
 
-You can explore the interactive Power BI dashboard for this project here:  
-[Retail Sales & Customer Segmentation Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZmRlMDNlMDctODhhZi00NmRkLWFlYmEtYzY4MDg2YTkxZTkyIiwidCI6IjcwMjVlMDRjLTcwY2EtNDhiZi1hYjdiLTczOTU0Y2I4NDZhZCIsImMiOjl9)
+## Datasets Used
+
+The datasets used in this project include:
+
+- **Online Retail.xlsx**: The original retail transaction dataset sourced from [Kaggle - Online Retail Dataset](https://www.kaggle.com/datasets/hellbuoy/online-retail-dataset). It contains detailed customer transactions from a UK-based online retailer.
+- **final_retail_dataset.csv**: The cleaned and preprocessed dataset derived from the original Excel file, used for analysis and modeling.
+- **retail_all.csv**: The initial raw dataset before cleaning and feature engineering.
+
 
 ---
 
