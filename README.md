@@ -68,14 +68,14 @@ Refund transactions were excluded from this calculation.
 
 ### 📏 Scaling & Clustering:
 
-- Applied `log1p` transformation to reduce skew in RFM values.
-- Scaled using `StandardScaler`.
+- Applied `log1p` transformation to reduce skew in RFM values.  
+- Scaled using `StandardScaler`.  
 - Chose **K=4** using the Elbow Method with KMeans clustering.
 
-🔍 RFM Cluster Segmentation
+#### 🔍 RFM Cluster Segmentation  
 ![RFM Cluster](Images/RFM_cluster.JPG)
 
-📐 Elbow Method
+#### 📐 Elbow Method  
 ![Elbow Method](Images/Elbow_method.JPG)
 
 ### 🧠 Customer Segmentation:
