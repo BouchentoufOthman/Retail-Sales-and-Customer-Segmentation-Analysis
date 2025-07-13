@@ -62,6 +62,7 @@ We created an **RFM table** per customer:
 - `Recency`: Days since the customer's last purchase
 - `Frequency`: Total number of purchases
 - `Monetary`: Total money spent
+- `TotalPrice`: Total price of a set of products bought
 
 Refund transactions were excluded from this calculation.
 
